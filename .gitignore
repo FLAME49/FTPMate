@@ -1,0 +1,11 @@
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+*.pdb
+*.log
+TestResults/
+__pycache__/
+*.pyc

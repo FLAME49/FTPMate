@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>SmokeTest</AssemblyName>
+    <RootNamespace>SmokeTest</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\FTPMate\Server\FtpServer.cs" Link="Server\FtpServer.cs" />
+    <Compile Include="..\..\FTPMate\Server\FtpSession.cs" Link="Server\FtpSession.cs" />
+    <Compile Include="..\..\FTPMate\Server\ShareMount.cs" Link="Server\ShareMount.cs" />
+    <Compile Include="..\..\FTPMate\Helpers\Partitions.cs" Link="Helpers\Partitions.cs" />
+  </ItemGroup>
+</Project>
